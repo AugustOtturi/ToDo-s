@@ -8,6 +8,7 @@ const InputTable = ({ newTaski }) => {
   };
   const onSubmit = (e) => {
     e.preventDefault();
+    if (inputValue.length <= 2) return;
     setInputValue("");
     newTaski(inputValue);
   };

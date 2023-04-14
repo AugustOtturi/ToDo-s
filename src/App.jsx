@@ -44,7 +44,7 @@ const App = () => {
       const newTodos = prev.map((todo) =>
         todo.id === todoId ? { ...todo, checked: !todo.checked } : todo
       );
-
+      saveTodosInLocalStorage(newTodos);
       return newTodos;
     });
   };
