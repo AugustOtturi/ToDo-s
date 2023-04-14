@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.btnReset {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 1rem 2rem; }
+
+.task-text-green {
+  color: black;
+  background-color: #1ee51e !important; }
+
+.task-text-black {
+  color: black; }

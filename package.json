@@ -1,0 +1,27 @@
+{
+  "name": "todolist",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-css": "node-sass --include-path scss src/scss/styles.scss src/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.3",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22",
+    "vite": "^4.2.0"
+  }
+}
